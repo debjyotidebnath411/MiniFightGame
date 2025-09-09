@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2e;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff4500;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+/* Fighter Section */
+.fighters {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.fighter {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 0 20px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.fighter img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+/* Fight Button */
+#fightButton {
+    background-color: #ff4500;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#fightButton:hover {
+    background-color: #ff6347;
+}
+
+/* Result Section */
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+}
